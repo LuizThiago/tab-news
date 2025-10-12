@@ -1,0 +1,69 @@
+# Node modules — nunca versionar dependências
+/node_modules/
+
+# Next.js build output
+/.next/
+/out/
+/build/
+
+# Arquivos de cache
+/.vercel/
+/.cache/
+/dist/
+/public/.cache/
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Sistema / OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+/.vscode/
+/.idea/
+/*.suo
+*.swp
+*.tmp
+*.log
+
+# Arquivos de ambiente — local / secreta
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env
+*.local
+
+# Cobertura de testes
+/coverage/
+
+# Yarn / pnpm
+.pnp/
+.pnp.js
+.yarn-integrity
+.yarnrc.yml
+
+# Cache de lint / build / bundler
+.eslintcache
+.nextlintcache
+
+# Outros arquivos gerados
+*.tgz
+*.zip
+*.tar.gz
+
+# Logs adicionais
+logs/
+*.log
+
+# Arquivos épicos de snapshots / backups
+**/*.backup.*
+**/*.back.*
+
+# Outros arquivos temporários
+tmp/
+temp/
