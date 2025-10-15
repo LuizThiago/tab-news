@@ -1,26 +1,27 @@
 {
-  "name": "pilot",
+  "name": "tab-news",
   "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/LuizThiago/tab-news#readme",
+  "bugs": {
+    "url": "https://github.com/LuizThiago/tab-news/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuizThiago/tab-news.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
-  "author": "",
-  "license": "MIT",
-  "description": "",
   "dependencies": {
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LuizThiago/tab-news.git"
-  },
-  "bugs": {
-    "url": "https://github.com/LuizThiago/tab-news/issues"
-  },
-  "homepage": "https://github.com/LuizThiago/tab-news#readme"
+  }
 }
