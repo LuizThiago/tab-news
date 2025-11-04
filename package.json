@@ -26,11 +26,10 @@
     "test": "jest",
     "test:watch": "jest --watchAll",
     "migration:create": "node-pg-migrate -m infra/migrations create",
-    "migration:up": "node-pg-migrate up",
-    "migration:down": "node-pg-migrate down"
+    "migration:up": "node-pg-migrate -m infra/migrations --envPath .env.development up",
+    "migration:down": "node-pg-migrate -m infra/migrations --envPath .env.development down"
   },
   "dependencies": {
-    "dotenv": "^16.4.4",
     "next": "^13.1.6",
     "node-pg-migrate": "^6.2.2",
     "pg": "^8.11.3",
