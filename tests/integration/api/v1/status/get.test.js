@@ -1,3 +1,11 @@
+import database from "infra/database";
+import orchestrator from "tests/orchestrator.js";
+
+beforeAll(async () => {
+  await orchestrator.waitForAllServices();
+  await database.query("drop schema public cascade; create schema public;");
+});
+
 test("GET to /api/v1/status returns status ok", async () => {
   const res = await fetch("http://localhost:3000/api/v1/status");
   expect(res.status).toBe(200);
